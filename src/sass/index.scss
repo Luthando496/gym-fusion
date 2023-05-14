@@ -16,3 +16,22 @@ body{
 .logo{
     width: 130px;
 }
+
+
+.img-card{
+    position: relative;
+    overflow: hidden;
+    transition: all 600ms;
+}
+
+.img-card:hover:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border: 4px solid rgba(109, 204, 248, 0.507);
+    height: 100%;
+    transform: skew(60deg);
+    background-color: rgba(127, 129, 255, 0.274);
+    transition: all 600ms;
+}

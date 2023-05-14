@@ -9,10 +9,10 @@ const Header = () => {
     <nav className="px-10 flex justify-between items-center">
 
         <a href="#">
-            <img src="/gym-fusion-high-resolution-logo-white-on-black-background.png" alt="logo" className=" logo " />
+            <img src="/gym-fusion-high-resolution-logo-white-on-black-background.png" alt="logo" className=" logo" />
         </a>
 
-        <ul className="flex gap-6 items-center">
+        <ul className="hidden lg:flex gap-6 items-center">
             <li className="">
                 <h3 className='text-white hover:text-amber-300 duration-300 text-xl cursor-pointer'>Home</h3>
             </li>
