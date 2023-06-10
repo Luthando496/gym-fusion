@@ -3,9 +3,9 @@ import React from 'react'
 const FitnessService = () => {
   return (
     <section className='w-full'>
-        <div className="bg-black relatve w-[80%] -skew-x-[40deg] skew-id mx-auto py-8 px-14 flex gap-12">
-            <h1 className="text-white text-4xl font-bold leading-[1.5] capitalize">We Are Always Providing Best<br /> Fitness Service For You</h1>
-            <button className="px-4 py-2 absolute top-0 left-0 bg-slate-700 shadow-xl border tracking-[4px] uppercase translate-x-[40rem] translate-y-[7rem]">Join with us</button>
+        <div className="bg-black relatve w-full skew-id mx-auto py-8 px-6 flex justify-between gap-12">
+            <h1 className="text-white text-lg lg:text-4xl font-semibold lg:font-bold leading-[1.5] capitalize">We Are Always Providing Best<br /> Fitness Service For You</h1>
+            <button className="px-2 lg:px-3 bg-orange-600 shadow-xl border  text-sm tracking-[4px] uppercase">Join with us</button>
         </div>
 
         <div className="w-full mt-24 grid grid-cols-1 lg:grid-cols-2 gap-14 px-14">
@@ -50,7 +50,7 @@ const FitnessService = () => {
                 {/*  */}
             </div>
 
-            <button className="px-6 mt-10 py-4 bg-pink-400 font-semibold text-md text-white uppercase">Our Classes</button>
+            <button className="px-6 mt-10 py-4 bg-pink-400 font-semibold shadow-2xl hover:translate-y-3 hover:translate-x-1 duration-500 text-md text-white uppercase">Our Classes</button>
 
 
         </div>
