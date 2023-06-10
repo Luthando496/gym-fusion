@@ -7,6 +7,7 @@ import FitnessService from '../components/FitnessService'
 import Trainers from '../components/Trainers'
 import GalleryGym from '../components/GalleryGym'
 import BMI from '../components/BMI'
+import PricingChart from '../components/PricingChart'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
         <Trainers />
         <GalleryGym />
         <BMI />
+        <PricingChart />
     </>
   )
 }
