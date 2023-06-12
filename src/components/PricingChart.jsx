@@ -1,11 +1,14 @@
 import React from 'react'
+import {BsArrowRight} from 'react-icons/bs'
+
+
 
 const PricingChart = () => {
   return (
     <section className='mt-[9rem] bg-white mb-5'>
          <div className="flex flex-col text-center items-center relative">
-    <h2 className="font-semibold text-white text-xl w-[70%] relative uppercase z-10 ">Pricing Chart
-        <img src="https://gymate-iota.vercel.app/static/media/title-bg.13d788348b56c629eefb2e7ad1f4d6ce.svg" alt="img" className='w-[17rem] absolute top-[-12px] z-[-8] left-[6%] md:left-[16%] lg:left-[35%]' />
+    <h2 className="font-semibold text-white text-xl  w-[100%] lg:w-[70%] relative uppercase z-10 ">Pricing Chart
+        <img src="https://gymate-iota.vercel.app/static/media/title-bg.13d788348b56c629eefb2e7ad1f4d6ce.svg" alt="img" className='w-[17rem] absolute top-[-12px] z-[-8] left-[16%] sm:left-[30%] lg:left-[35%]' />
     </h2>
     </div>
     <h3 className="text-center text-2xl capitalize mt-12 font-semibold">Exclusive Pricing Plan</h3>
@@ -35,7 +38,7 @@ const PricingChart = () => {
 
         <div className="mt-8 flex justify-center">
 
-        <button className="px-6 uppercase tracking-[2px] text-xl font-bold py-4 text-white bg-yellow-400 btn-card hover:bg-pink-400 duration-700">Purchase Now</button>
+        <button className="px-6 uppercase tracking-[2px] text-xl font-bold py-4 text-white bg-yellow-400 btn-card hover:bg-pink-400 items-center hover:rounded-md shadow-xl hover:translate-y-2 duration-500 flex gap-3">Purchase Now <BsArrowRight size={20} /></button>
 
         </div>
 
@@ -64,7 +67,7 @@ const PricingChart = () => {
 
         <div className="mt-8 flex justify-center">
 
-        <button className="px-6 uppercase tracking-[2px] text-xl font-bold py-4 text-white bg-yellow-400 btn-card hover:bg-pink-400 duration-700">Purchase Now</button>
+        <button className="px-6 uppercase tracking-[2px] text-xl font-bold py-4 text-white bg-yellow-400 btn-card hover:bg-pink-400 hover:rounded-md shadow-xl hover:translate-y-2 duration-500">Purchase Now</button>
 
         </div>
 
@@ -93,7 +96,7 @@ const PricingChart = () => {
 
         <div className="mt-8 flex justify-center">
 
-        <button className="px-6 uppercase tracking-[2px] text-xl font-bold py-4 text-white bg-yellow-400 btn-card hover:bg-pink-400 duration-700">Purchase Now</button>
+        <button className="px-6 uppercase tracking-[2px] text-xl font-bold py-4 text-white bg-yellow-400 btn-card hover:bg-pink-400 hover:rounded-md shadow-xl hover:translate-y-2 duration-500">Purchase Now</button>
 
         </div>
 

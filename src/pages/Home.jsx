@@ -8,6 +8,9 @@ import Trainers from '../components/Trainers'
 import GalleryGym from '../components/GalleryGym'
 import BMI from '../components/BMI'
 import PricingChart from '../components/PricingChart'
+import Blog from '../components/Blog'
+
+
 
 const Home = () => {
   return (
@@ -21,6 +24,7 @@ const Home = () => {
         <GalleryGym />
         <BMI />
         <PricingChart />
+        <Blog />
     </>
   )
 }
