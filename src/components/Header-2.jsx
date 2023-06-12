@@ -1,15 +1,32 @@
-import React from 'react'
+import React,{useState} from 'react'
+import {RxHamburgerMenu,RxAvatar } from 'react-icons/rx'
+import {AiOutlineClockCircle} from 'react-icons/ai'
+import {GiHammerDrop } from 'react-icons/gi'
 import {FaPlus} from 'react-icons/fa'
-import {GiHammerDrop} from 'react-icons/gi'
-import {RxHamburgerMenu,RxAvatar} from 'react-icons/rx'
 import { Link } from 'react-router-dom'
 
 
+const HeaderSecond = ({title}) => {
 
-const Header = () => {
+    const [navbar,setNavbar] = useState(false)
+
+
+    const changeNav =()=>{
+        if(window.scrollY >= 30){
+            setNavbar(true)
+        }
+        else{
+            setNavbar(false)
+        }
+
+    }
+
+    window.addEventListener('scroll',changeNav)
+
+
   return (
-    <header className='header'>
-    <nav className="px-6 flex justify-between items-center">
+    <header className={`header-2 h-[45vh] relative`}>
+        <nav className={`${navbar ? 'bg-black fixed top-0' : 'bg-transparent'} duration-300 w-full z-50 px-6 flex justify-between items-center`}>
 
         <Link to='/'>
             <img src="/gym-fusion-high-resolution-logo-white-on-black-background.png" alt="logo" className=" logo" />
@@ -32,7 +49,9 @@ const Header = () => {
                 <h3 className='text-white hover:text-amber-300 duration-300 text-sm cursor-pointer'>Schedule</h3>
             </li>
             <li className="">
-                <h3 className='text-white hover:text-amber-300 duration-300 text-sm cursor-pointer'>Pricing</h3>
+            <Link to='/pricing' className="text-white hover:text-amber-300 duration-300 text-sm cursor-pointer">
+            Pricing
+            </Link>
             </li>
             <li className="">
             <Link to='/classes' className="text-white hover:text-amber-300 duration-300 text-sm cursor-pointer">
@@ -56,14 +75,12 @@ const Header = () => {
         </Link>
         </div>
 
-    </nav>
-    <div className="w-full h-screen">
-
-    </div>
-
-
+        </nav>
+        <div className="w-full absolute bottom-4 py-4">
+        <h2 className="text-center text-white text-2xl lg:text-4xl font-bold">{title}</h2>
+        </div>
     </header>
   )
 }
 
-export default Header
+export default HeaderSecond
