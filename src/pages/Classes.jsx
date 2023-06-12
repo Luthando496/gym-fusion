@@ -78,7 +78,7 @@ const Classes = () => {
     </header>
 
     
-    < className='w-full py-14'>
+    <section className='w-full py-14'>
         <div className="px-10 grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* card start */}
         <div className="w-full relative overflow-hidden h-[26rem] shadow-2xl rounded-3xl">
@@ -266,7 +266,7 @@ const Classes = () => {
         {/* card end */}
         </div>
 
-    </>
+    </section>
     </>
   )
 }
