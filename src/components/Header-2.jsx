@@ -89,7 +89,7 @@ const HeaderSecond = ({title}) => {
 
         </nav>
         <div className="w-full absolute bottom-4 py-4">
-        <h2 className="text-center text-white text-2xl lg:text-4xl font-bold">{title}</h2>
+        <h2 className="text-center text-white text-2xl tracking-[4px] lg:text-4xl font-bold">{title}</h2>
         </div>
     </header>
   )

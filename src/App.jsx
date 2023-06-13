@@ -5,6 +5,8 @@ import Footer from './components/Footer'
 import Classes from './pages/Classes'
 import Pricing from './pages/Pricing'
 import Contact from './pages/Contact'
+import Gallery from './pages/Gallery'
+import GallerySecond from './pages/GallerySecond'
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
         <Route path="/classes" element={<Classes />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/gallery/page-1" element={<Gallery />} />
+        <Route path="/gallery/page-2" element={<GallerySecond />} />
     </Routes>
     <Footer />
     </>
