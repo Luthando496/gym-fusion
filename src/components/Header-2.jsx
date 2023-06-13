@@ -34,19 +34,29 @@ const HeaderSecond = ({title}) => {
 
         <ul className="hidden lg:flex gap-6 items-center">
             <li className="">
-                <h3 className='text-white hover:text-amber-300 duration-300 text-sm cursor-pointer'>Home</h3>
+            <Link to='/' className="text-white hover:text-amber-300 duration-300 text-sm cursor-pointer">
+            Home
+            </Link>
             </li>
             <li className="">
-                <h3 className='text-white hover:text-amber-300 duration-300 text-sm cursor-pointer'>About</h3>
+            <Link to='/about' className="text-white hover:text-amber-300 duration-300 text-sm cursor-pointer">
+            About
+            </Link>
             </li>
             <li className="">
-                <h3 className='text-white hover:text-amber-300 duration-300 text-sm cursor-pointer'>Gallery</h3>
+            <Link to='/gallery' className="text-white hover:text-amber-300 duration-300 text-sm cursor-pointer">
+            Gallery
+            </Link>
             </li>
             <li className="">
-                <h3 className='text-white hover:text-amber-300 duration-300 text-sm cursor-pointer'>Blog</h3>
+            <Link to='/blog' className="text-white hover:text-amber-300 duration-300 text-sm cursor-pointer">
+            Blog
+            </Link>
             </li>
             <li className="">
-                <h3 className='text-white hover:text-amber-300 duration-300 text-sm cursor-pointer'>Schedule</h3>
+            <Link to='/schedule' className="text-white hover:text-amber-300 duration-300 text-sm cursor-pointer">
+            Schedule
+            </Link>
             </li>
             <li className="">
             <Link to='/pricing' className="text-white hover:text-amber-300 duration-300 text-sm cursor-pointer">
@@ -59,7 +69,9 @@ const HeaderSecond = ({title}) => {
             </Link>
             </li>
             <li className="">
-                <h3 className='text-white hover:text-amber-300 duration-300 text-sm cursor-pointer'>Contact</h3>
+            <Link to='/contact' className="text-white hover:text-amber-300 duration-300 text-sm cursor-pointer">
+            Contact
+            </Link>
             </li>
 
         </ul>
