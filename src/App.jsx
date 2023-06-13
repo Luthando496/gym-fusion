@@ -7,6 +7,7 @@ import Pricing from './pages/Pricing'
 import Contact from './pages/Contact'
 import Gallery from './pages/Gallery'
 import GallerySecond from './pages/GallerySecond'
+import About from './pages/About'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <>
     <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/classes" element={<Classes />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact" element={<Contact />} />

@@ -11,8 +11,8 @@ const AboutWho = () => {
             {/* left */}
             <div className="w-full col-span-2">
                 <h1 className="text-xl uppercase font-semibold">Who We Are</h1>
-            <h1 className="text-5xl bold px-4 black text-center lg:text-left capitalize mt-14">Take Your Health And Body To Next Level</h1>
-            <p className="text-gray-400 my-4 text-center lg:text-left">Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals.</p>
+            <h1 className="text-4xl leading-[1.8] bold px-4 black  lg:text-left capitalize mt-14">Take Your Health And Body To Next Level</h1>
+            <p className="text-gray-400 my-4  lg:text-left">Take your health and body to the next level with our comprehensive program designed to help you reach your fitness goals.</p>
 
             <div className="w-full space-y-9 md:space-y-0 mt-14 grid grid-cols-1 md:grid-cols-3">
                 {/*  */}

@@ -44,7 +44,7 @@ const HeaderSecond = ({title}) => {
             </Link>
             </li>
             <li className="">
-            <Link to='/gallery' className="text-white hover:text-amber-300 duration-300 text-sm cursor-pointer">
+            <Link to='/gallery/page-1' className="text-white hover:text-amber-300 duration-300 text-sm cursor-pointer">
             Gallery
             </Link>
             </li>
