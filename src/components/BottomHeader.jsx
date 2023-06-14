@@ -3,7 +3,7 @@ import {FaClock} from 'react-icons/fa'
 
 const BottomHeader = () => {
   return (
-    <section className='w-full px-9 lg:px-24 -mt-20'>
+    <section className='w-full px-9 lg:px-24 mt-20'>
     <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-6">
     {/* card */}
         <div className="w-full bg-amber-300 cursor-pointer rounded-tl-xl rounded-br-xl group hover:bg-black duration-500 px-4 py-6">

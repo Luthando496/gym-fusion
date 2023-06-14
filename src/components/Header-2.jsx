@@ -73,7 +73,6 @@ const HeaderSecond = ({title}) => {
             Contact
             </Link>
             </li>
-
         </ul>
 
         <div className="flex items-center gap-6">
