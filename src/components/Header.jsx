@@ -5,7 +5,7 @@ import {AiOutlineMail} from 'react-icons/ai'
 import {IoMdCall} from 'react-icons/io'
 import {RxHamburgerMenu,RxAvatar} from 'react-icons/rx'
 import {RxLayers} from 'react-icons/rx'
-import { Link } from 'react-router-dom'
+import { Link,useNavigate } from 'react-router-dom'
 
 
 
@@ -13,6 +13,8 @@ const Header = () => {
     const [navbar,setNavbar] = useState(false)
     const [layer,setLayer] = useState(false)
     const [sidebar,setSide] = useState(false)
+
+    const navigate = useNavigate();
 
 
     const changeNav =()=>{
@@ -82,7 +84,7 @@ const Header = () => {
 
         <div className="flex items-center gap-6">
         <RxHamburgerMenu onClick={()=> setSide(!sidebar)} className='text-white text-2xl lg:hidden' />
-        <RxAvatar className='text-white text-2xl' />
+        <RxAvatar onClick={()=> navigate('/signup')} className='text-white text-2xl cursor-pointer' />
         <RxLayers onClick={()=> setLayer(!layer)} className='text-white text-2xl' />
 
         <Link to="/contact" className="border group hidden md:flex border-gary-300 uppercase font-bold text-sm text-white items-center gap-2 py-4 px-2">

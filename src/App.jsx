@@ -10,6 +10,7 @@ import GallerySecond from './pages/GallerySecond'
 import About from './pages/About'
 import Schedule from './pages/Schedule'
 import Blog from './pages/BlogPage'
+import SignUp from './pages/SignUp'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/classes" element={<Classes />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/schedule" element={<Schedule />} />
+        <Route path="/signup" element={<SignUp />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/gallery/page-1" element={<Gallery />} />
