@@ -9,6 +9,7 @@ import Gallery from './pages/Gallery'
 import GallerySecond from './pages/GallerySecond'
 import About from './pages/About'
 import Schedule from './pages/Schedule'
+import Blog from './pages/BlogPage'
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
         <Route path="/gallery/page-1" element={<Gallery />} />
         <Route path="/gallery/page-2" element={<GallerySecond />} />
     </Routes>
