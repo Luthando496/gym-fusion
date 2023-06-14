@@ -175,7 +175,7 @@ const Header = () => {
 
     </div>
 
-    <div className={`${sidebar ? '' :'-translate-y-[100%]'} fixed duration-500 top-0 w-full h-full bg-sky-300`}>
+    <div className={`${sidebar ? '' :'-translate-y-[100%]'} z-[100]fixed duration-500 top-0 w-full h-full bg-sky-300`}>
         <div className="mt-8 px-8 w-full">
             <div className="flex w-full">
                 <button className='self-end'>
@@ -199,7 +199,7 @@ const Header = () => {
             </Link>
             </li>
             <li className="">
-            <Link onClick={()=> setSide(!sidebar)} to='/gallery' className="text-white hover:text-amber-300 duration-300 text-xl tracking-[5px] font-semibold cursor-pointer">
+            <Link onClick={()=> setSide(!sidebar)} to='/gallery/page-1' className="text-white hover:text-amber-300 duration-300 text-xl tracking-[5px] font-semibold cursor-pointer">
             Gallery
             </Link>
             </li>
