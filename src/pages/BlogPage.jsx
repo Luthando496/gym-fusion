@@ -130,7 +130,7 @@ const BlogPage = () => {
               {/*  */}
               <div className="w-full border bg-gray-100 py-10 px-4 my-16 shadow-xl shadow-slate-200">
               <h3 className='text-xl font-bold'>Categories</h3>
-              <div className="my-3 bg-emerald-500 w-[4rem] h-[3px]"></div>
+              <div className="my-3 bg-amber-500 w-[4rem] h-[3px]"></div>
 
               {/*  */}
               <div className="w-full my-6">
@@ -210,7 +210,7 @@ const BlogPage = () => {
               {/*  */}
               <div className="w-full bg-gray-100 px-4 py-10 shadow-xl shadow-slate-200">
               <h3 className='text-xl font-bold'>Recent Posts</h3>
-              <div className="my-3 bg-emerald-500 w-[4rem] h-[3px]"></div>
+              <div className="my-3 bg-amber-500 w-[4rem] h-[3px]"></div>
 
               {/*  */}
               <div className="my-4 flex gap-4 items-center">
@@ -288,7 +288,7 @@ const BlogPage = () => {
               {/*    */}  
               <div className="w-full bg-gray-100 px-4 py-10 my-8 shadow-xl shadow-slate-200">
               <h3 className='text-xl font-bold'>Recent Posts</h3>
-              <div className="my-3 bg-emerald-500 w-[4rem] h-[3px]"></div>
+              <div className="my-3 bg-amber-500 w-[4rem] h-[3px]"></div>
 
               <div className="flex my-10 gap-4 flex-wrap items-center">
                 <span className="px-3 py-1 text-xl font-semibold text-gray-400 bg-white">#Crossfit</span>
@@ -302,9 +302,16 @@ const BlogPage = () => {
               </div>
               </div>
               {/*  */}
-              <div className="w-full mt-4">
-                <div className="img w-full h-[40rem]">
+              <div className="w-full lg:mt-6 mt-8 shadow-md">
+                <div className="img w-full h-[40rem] relative">
                   <img src="https://images.pexels.com/photos/6739948/pexels-photo-6739948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" className="w-full h-full object-cover" />
+                  <div className="absolute top-0 w-full h-full bg-black/60"></div>
+                  <p className="absolute text-[34px] font-bold uppercase top-16 left-10 z-[2]">fitness</p>
+                  <span className="banner-shape top-14 left-0 z-[1] bg-white absolute w-[18rem] h-[60px]"></span>
+                  <div className="text-white flex flex-col absolute top-[10rem] left-10">
+                    <p className="text-[64px] font-bold">46%</p>
+                    <p className="text-[20px] font-bold -mt-[10px]">Flat Discount</p>
+                  </div>
                 </div>
               </div>
             </div>
